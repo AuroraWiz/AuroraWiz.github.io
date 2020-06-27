@@ -2467,6 +2467,15 @@ ul.social li a span { font-size: 24px; }
 .feature .feature-content p strong { color: #414156; text-transform: uppercase; font-size: 0.8rem; font-weight: 700; }
 .feature .feature-content p em { color: #1c3ed3; font-style: normal; }
 
+.partner { height: 100%; border: 2px solid #eaeaea; padding: 20px; background-color: #ffffff; display: flex; align-items: center; flex-direction: column; text-align: center; }
+.partner .partner-image { flex: 0 0 auto; display: flex; margin-bottom: 20px; text-align: center; }
+.partner img { width: 100%; height: auto; }
+.partner .partner-title { font-size: 1.5rem; font-weight: 300; line-height: 1.2; }
+.partner .partner-content { margin-bottom: 0; margin-top: 0; text-align: left; }
+.partner .partner-content p { margin: 0; }
+.partner .partner-content p strong { color: #414156; text-transform: uppercase; font-size: 0.8rem; font-weight: 700; }
+.partner .partner-content p em { color: #1c3ed3; font-style: normal; }
+
 .page-home { background-image: url("../images/method-draw-image.svg"); background-repeat: no-repeat; background-size: 115%; background-position: 49px -40px; }
 @media (min-width: 576px) { .page-home { background-size: 90%; background-position: 159px -40px; } }
 @media (min-width: 768px) { .page-home { background-size: 70%; background-position: 100% -50px; } }
