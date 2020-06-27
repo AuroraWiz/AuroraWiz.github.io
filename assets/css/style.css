@@ -2343,9 +2343,9 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 .logo img { width: 100%; height: auto; }
 .logo a { display: block; width: 100%; height: 100%; }
 
-.logo-mobile { display: block; width: 30px; }
+.logo-mobile { display: block; }
 @media (min-width: 576px) { .logo-mobile { display: none; } }
-.logo-mobile img { width: 100%; height: auto; }
+.logo-mobile img { height: 40px; }
 .logo-mobile a { display: block; width: 100%; height: 100%; }
 
 .main-menu { height: inherit; display: none; }
