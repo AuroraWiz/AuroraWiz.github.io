@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #ffffff; --gray: #6c757d; --gray-dark: #343a40; --primary: #1c3ed3; --secondary: #414156; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -2438,7 +2439,7 @@ ul.social li a span { font-size: 24px; }
 @media (min-width: 576px) { .intro { padding-top: 160px; padding-bottom: 80px; } }
 @media (min-width: 768px) { .intro { padding-top: 160px; padding-bottom: 80px; } }
 @media (min-width: 992px) { .intro { padding-top: 200px; padding-bottom: 100px; } }
-.intro h1 { color: #1c3ed3; font-size: 2.4rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; width: 70%; }
+.intro h1 { color: #1c3ed3; font-size: 2.4rem; line-height: 1.2; font-family: 'Roboto Slab', serif; width: 70%; }
 @media (min-width: 576px) { .intro h1 { width: 70%; } }
 @media (min-width: 768px) { .intro h1 { font-size: 3rem; width: 70%; } }
 @media (min-width: 992px) { .intro h1 { font-size: 3rem; width: 50%; } }
@@ -2446,6 +2447,7 @@ ul.social li a span { font-size: 24px; }
 @media (min-width: 576px) { .intro p { width: 70%; } }
 @media (min-width: 768px) { .intro p { width: 60%; } }
 @media (min-width: 992px) { .intro p { width: 40%; } }
+.intro p.bold { font-weight: 700; }
 
 .intro-small { padding-top: 100px; padding-bottom: 30px; }
 
@@ -2545,5 +2547,3 @@ ul.social li a span { font-size: 24px; }
 .service-summary .service-content { flex: 1; }
 .service-summary .service-content .service-title { font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; font-size: 1.6rem; }
 .service-summary .service-content p { color: #414156; }
-
-.intro bold { font-weight: 700; }
