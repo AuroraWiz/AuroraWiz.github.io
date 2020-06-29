@@ -2545,3 +2545,5 @@ ul.social li a span { font-size: 24px; }
 .service-summary .service-content { flex: 1; }
 .service-summary .service-content .service-title { font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; font-size: 1.6rem; }
 .service-summary .service-content p { color: #414156; }
+
+.intro bold { font-weight: 700; }
